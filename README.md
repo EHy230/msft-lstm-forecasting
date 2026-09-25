@@ -48,15 +48,3 @@ pip install -r requirements.txt
 jupyter notebook MSFT_LSTM_Stock_Forecasting.ipynb
 ```
 
-## Next steps
-
-- Walk-forward evaluation (retrain as each new month of data arrives)
-- Predicting volatility or multi-day horizons, which are more predictable than next-day direction
-- Comparing with simpler models (linear regression, gradient boosting) on the same features
-
-## Credits
-
-Based on a stock prediction project from the Harvard AI Bootcamp, extended with return-based targets, technical
-indicators, market data, leakage-free scaling, early stopping and baseline comparisons.
-
-*This is an educational project, not financial advice.*
